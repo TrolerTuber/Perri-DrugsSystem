@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: rgb(17, 146, 221);
+    --inZone-color: rgb(255, 51, 0);
+}
+
+body {
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    height: 100vh;          
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    
+    bottom: 4%;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-shadow: 0 0 .3vw black;
+}
+
+.fuera {
+    background: rgba(63, 62, 62, 0.329);
+    border-radius: 2vw;
+    width: 550px;
+    height: 3px;
+}
+
+.dentro {
+    position: relative;
+    width: 15%;
+    height: 100%;
+    background: var(--main-color);
+    box-shadow: 0 0 1.5vw .5vw var(--main-color);
+}
+
+
+
+.container-inZone {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+
+    top: 2%;
+
+    background: var(--inZone-color);
+    padding-left: .2vw;
+    padding-right: .2vw;
+    padding-bottom: .2vw;
+    height: 1vw;
+    border-radius: .4vw;
+
+}
+.container-inZone > div {
+    color: white;
+    font-weight: bold;
+
+    font-size: .75vw;
+
+    font-family: 'Montserrat';
+    text-shadow: 0 0 .3vw black;
+}
+
