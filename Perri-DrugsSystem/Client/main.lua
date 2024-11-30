@@ -51,7 +51,7 @@ for k, v in pairs(Config.Recolectas) do
 
             SendNUIMessage({
                 action = 'show',
-                title = 'Recolectando',
+                title = 'Harvesting',
                 name = v.Name,
                 remove = v.Quantity,
                 time = v.time
@@ -106,7 +106,7 @@ for k, v in pairs(Config.Procesos) do
 
             SendNUIMessage({
                 action = 'show',
-                title = 'Procesando',
+                title = 'Processing',
                 name = v.Name,
                 remove = v.Remove,
                 time = v.Time
